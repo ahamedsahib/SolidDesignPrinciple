@@ -4,8 +4,8 @@ using System.Text;
 
 namespace DesignPrinciple.OpenClosedPrinciple
 {
-   public abstract class SalaryCalculator
-    {
+    public abstract class SalaryCalculator
+  {
         public abstract double CalculateSalary();
     }
 
