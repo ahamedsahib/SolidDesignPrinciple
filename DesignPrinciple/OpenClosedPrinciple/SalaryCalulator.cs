@@ -5,7 +5,7 @@ using System.Text;
 namespace DesignPrinciple.OpenClosedPrinciple
 {
     public abstract class SalaryCalculator
-    {
+  {
         public abstract double CalculateSalary();
     }
 
@@ -13,7 +13,7 @@ namespace DesignPrinciple.OpenClosedPrinciple
     {
         public override double CalculateSalary()
         {
-            double bp = 10000, hra = 2000, sb = 800, totalSalary;
+            double bp=10000, hra=2000, sb=800,totalSalary;
             totalSalary = bp + hra + sb;
             return totalSalary;
         }
